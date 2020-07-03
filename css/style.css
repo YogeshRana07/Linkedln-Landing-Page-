@@ -56,6 +56,10 @@ body {
       width: 100%; } }
 
 
+
+
+
+////////////////////////////////////////
 /*Header............*/
 .header {
     display: flex;
@@ -142,6 +146,9 @@ body {
     width: 2rem;
     fill: var(--color-grey-dark-3); }
 
+
+
+/////////////USER NAVIGATION//////////
 .user-nav {
   display: flex;
   /*align-self: stretch;*/
@@ -261,7 +268,10 @@ body {
 }
 
 
-/*Section*/
+
+
+////////////SECTION//////////
+
 
 .Section{
   display: flex;
@@ -293,6 +303,9 @@ body {
   overflow-y: auto !important;
 }
 
+
+
+////POST 1///////
 .post1{
   display: flex;
   flex-direction: column;
@@ -301,6 +314,8 @@ body {
   border:1px solid var(--color-grey-light-3);
    border-bottom: var(--line);
 }
+
+////POST 2///////
 .post2{
  display: flex;
   flex-direction: column;
@@ -426,6 +441,8 @@ text-decoration: none;
   width:100%;
 }
 
+
+
 /*Wishs*/
 
 .wishs{
@@ -460,7 +477,7 @@ text-decoration: none;
 
 
 
-
+//////MEDIA QUERY///////
 
 @media only screen and (max-width:600px){
   .logo{
